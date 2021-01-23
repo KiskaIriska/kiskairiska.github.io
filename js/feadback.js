@@ -21,4 +21,8 @@ form.addEventListener("formdata", event => {
 
     const values = [...data.values()];
     console.log(values);
+    
+    const entries = [...data.entries()];
+    console.log(entries);
+
 });

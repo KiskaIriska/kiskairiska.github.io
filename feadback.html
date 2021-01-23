@@ -16,10 +16,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="main.css" />
-  <script src="feadback.js"></script>
+  <script src="./js/feadback.js"></script>
+  
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="sweetalert2.all.min.js"></script>
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
     (function (m, e, t, r, i, k, a) {
@@ -85,7 +88,7 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Текст:</label>
-            <textarea class="form-control" id="textMessage" name="textMessage" rows="3"></textarea>
+            <input type="text" class="form-control" id="textMessage" name="textMessage" rows="3"></textarea>
           </div>
           <div class="mb-3">
             <label for="formFileMultiple" class="form-label">Добавить файл (При необходимости):</label>
