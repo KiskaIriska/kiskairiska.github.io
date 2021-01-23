@@ -19,6 +19,7 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="main.css" />
   <script src="feadback.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
     (function (m, e, t, r, i, k, a) {
@@ -76,11 +77,11 @@
         <div class="col-sm">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email адрес:</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+            <input type="text" class="form-control" id="email" name="email" placeholder="name@example.com">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Имя:</label>
-            <input type="login" class="form-control" id="login" name="login">
+            <input type="text" class="form-control" id="login" name="login">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Текст:</label>
@@ -91,7 +92,7 @@
             <input class="form-control" type="file" id="formFileMultiple" multiple>
           </div>
           <div class="mb-3">
-            <a href="recipes.html" class="btn">Отправить</a>
+            <button type="submit" class="btn btn-secondary">Отправить</button>
           </div>
         </div>
       </div>
